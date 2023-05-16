@@ -23,7 +23,7 @@ def input_parser(): # This is the function that parses the input arguments when 
     ap = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter) # This is the argument parser. I add the arguments below.
     ap.add_argument("--epochs",
                     help="Amount of epochs to train the model for.",
-                    type = int, default=1) # CHANGE THIS TO 100
+                    type = int, default=100)
     ap.add_argument("--batch_size",
                     help="Batch size to use when training the model.",
                     type = int, default=128)

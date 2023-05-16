@@ -129,7 +129,7 @@ train_rnn_model.py [-h] [--epochs EPOCHS] [--batch_size BATCH_SIZE]
 
 options:
   -h, --help            show this help message and exit
-  --epochs EPOCHS       Amount of epochs to train the model for. (default: 1)
+  --epochs EPOCHS       Amount of epochs to train the model for. (default: 100)
   --batch_size BATCH_SIZE
                         Batch size to use when training the model. (default: 128)
 ```
