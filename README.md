@@ -170,6 +170,8 @@ This repository has the following structure:
 ## Example of generated text
 
 ```
+NOTE: Trained for 1 epoch - this is just an example.
+
 PROMPT:  Hi, how are you?
 1/1 [==============================] - 0s 382ms/step
 1/1 [==============================] - 0s 29ms/step
