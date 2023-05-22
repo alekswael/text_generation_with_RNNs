@@ -27,12 +27,12 @@ This repo contains a collection of scripts for builiding a text generator by tra
 For this project, the [New York Times Comments](https://www.kaggle.com/datasets/aashita/nyt-comments) dataset was used to train the model. The dataset consist of 2+ million comments made to New York Times arcticle sections, collected in various time windows. The data should be downloaded from [here](https://www.kaggle.com/datasets/aashita/nyt-comments) and stored in the `data` folder as shown in the `repository structure` paragraph further down this readme. 
 
 ### Model
-The text generator is created by training a recurrent nueral network model on the comments. The model is created in the `TensorFlow` framework, and is a sequential model with an input embedding layer, a LSTM (Long Short-Term Memory) hidden layer and an output layer.
+The text generator is created by training a recurrent neural network model on the comments. The model is created in the `TensorFlow` framework, and is a sequential model with an input embedding layer, a LSTM (Long Short-Term Memory) hidden layer and an output layer.
 
 ### Pipeline
 The code pipeline consists of a training script, `train_rnn_model.py`, and a text generation script, `generate_text.py`.
 
-Furthermore, a series of helper functions are used in various steps of the pipeline. These functions are located in the `helper_functions.py` script located in the `utils` folder. These functions were created by Ross, but have been modified to fit the pipeline.
+Furthermore, a series of helper functions are used in various steps of the pipeline. These functions are located in the `helper_functions.py` script located in the `utils` folder. These functions were created by Ross, but have been slightly modified to fit the pipeline.
 
 The `train_rnn_model.py` script follows these steps:
 1. Import dependencies
