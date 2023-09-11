@@ -1,24 +1,9 @@
 <br />
-  <h1 align="center">Assignment 3: Language modelling and text generation using RNNs</h1> 
-  <h2 align="center">Cultural Data Science, 2023</h2> 
+  <h1 align="center">Language modelling and text generation using RNNs</h1> 
   <h3 align="center">
   Author: Aleksander Moeslund Wael <br>
-  Student no. 202005192
   </h3>
 </p>
-
-## Assignment notes (Ross)
-Text generation is hot news right now!
-
-For this assignemnt, you're going to create some scripts which will allow you to train a text generation model on some culturally significant data - comments on articles for *The New York Times*. You can find a link to the data [here](https://www.kaggle.com/datasets/aashita/nyt-comments).
-
-You should create a collection of scripts which do the following:
-
-- Train a model on the Comments section of the data
-  - Save the trained model
-- Load a saved model
-  - Generate text from a user-suggested prompt
----
 
 ## About the project
 This repo contains a collection of scripts for builiding a text generator by training a recurrent neural network on a large text dataset. 
