@@ -17,7 +17,7 @@ The text generator is created by training a recurrent neural network model on th
 ### Pipeline
 The code pipeline consists of a training script, `train_rnn_model.py`, and a text generation script, `generate_text.py`.
 
-Furthermore, a series of helper functions are used in various steps of the pipeline. These functions are located in the `helper_functions.py` script located in the `utils` folder. These functions were created by Ross, but have been slightly modified to fit the pipeline.
+Furthermore, a series of helper functions are used in various steps of the pipeline. These functions are located in the `helper_functions.py` script located in the `utils` folder.
 
 The `train_rnn_model.py` script follows these steps:
 1. Import dependencies
